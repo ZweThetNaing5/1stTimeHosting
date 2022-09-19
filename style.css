@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'poppins', 'sans-serif';
+    color: #241e38;
+    background: #f0eef6;
+    overflow-x: hidden;
+    padding: 1.5rem 5%;
+}
+
+.profile-pic{
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.text-bold{
+    font-weight: 500;
+}
+
+.text-muted{
+    color:#9e98b3;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav, .right-nav{
+    display: flex;
+}
+
+.left-nav h4{
+    margin-left: 1rem;
+}
+
+.right-nav i{
+    margin-left: 1.5rem;
+}
+
+.profile-info{
+    margin: 1rem 0;
+}
+
+.list{
+    display: flex;
+    gap: 4rem;
+}
+
+.profile-info .list .follow{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.profile-info .info-body .followed-by{
+    display: flex;
+}
+
+.profile-info .info-body .followed-by span{
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border:2px solid white;
+    margin-left: -0.6rem;
+}
+
+.profile-info .info-body .followed-by span:first-child{
+    margin: 0;
+}
+
+.profile-info .info-body .followed-by p{
+    margin-left: 0.5rem;
+}
+
+.info-body .name{
+    margin: 0.6rem 0;
+}
+
+.btn{
+    padding: 0.2rem 2rem;
+    color: black;
+    font-weight: 500;
+    margin-right: 0.4rem;
+    margin-top: 0.5rem;
+    background: transparent;
+    border: 1px solid grey;
+}
+
+main .highlights{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .highlights div img{
+    width : 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+main .highlights h5{
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+main .highlights h5 i{
+    color: rgb(114, 46, 6)
+}
+
+main .category{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+main .category span{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    font-size: 0.85rem;
+    padding-bottom: 0.5rem;
+}
+
+main .category .active{
+    border-bottom: 3px solid #241e38;
+}
+
+main .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.3rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+main .gallery img{
+    display: block;
+    width: 100%;;
+}
+
+.bot-nav{
+    margin-top: 1rem;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    width: 90vw;
+}
+
+.bot-nav .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.bot-nav .container i{
+    font-size: 1.2rem;
+}
+
+.bot-nav .container .active{
+    color: #2145e7;
+}
+
+
+/* ======================CSS for alter ====================== */
+
+.photo{
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+}
+
+.liked-by{
+    display: flex;
+    align-items: center;
+}
+
+.interaction-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.liked-by span{
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border:2px solid white;
+    margin-left: -0.6rem;
+}
+
+.liked-by span:first-child{
+    margin: 0;
+}
+
+.liked-by p{
+    margin-left: 0.5rem;
+}
+
+.cmt p{
+    margin-bottom: 0.3rem;
+}
